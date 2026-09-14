@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+    <title>JavaJam Coffee Bar</title>
+    <meta> charset="UTF-8">
+    <meta name="viewport" content="width=device-width", initial-scale="1.0">
+</head>
+
+<body>
+    <header>
+        <h1><JavaJam Coffee Bar</h1>
+    </header>
+
+    <nav>
+        <strong>
+            <a href="index.html">Home</a>
+            &nbsp;&nbsp;&nbsp;
+            <a href="menu.html">Menu</a>
+            &nbsp;&nbsp;&nbsp;
+            <a href="music.html">Music</a>
+            &nbsp;&nbsp;&nbsp;
+            <a href="jobs.html">Jobs</a>
+        
+        </strong>
+    </nav>
+
+    <main>
+        <h2>Work at JavaJam</h2>
+
+        <section>
+            <article>
+                <h3>Barista</h3>
+
+                <p>
+                    Prepare coffee and specialty beverages, provide friendly
+                    customer service, and help maintain a welcoming coffeehouse
+                    environment. Hourly wage: $14.00 per hour.
+                </p>
+
+                <ul>
+                    <li>Prepare coffee, tea, and specialty beverages</li>
+                    <li>Take customer orders and payments</li>
+                    <li>Keep the coffee bar clean and organized</li>
+                    <li>Restock supplies when needed</li>
+                </ul>
+            </article>
+
+            <article>
+                <h3>Music Coordinator</h3>
+
+                <p>
+                    Organize live music and poetry events, communicate with 
+                    performers, and help create entertaining events for JavaJam
+                    customers. Hourly wage: $16.00 per hour.
+                </p>
+
+                <ul>
+                    <li>Schedule musicians and performers</li>
+                    <li>Coordinate music and poetry events</li>
+                    <li>Communicate event details with perfomers</li>
+                    <li>Help prepare the performance area</li>
+                </ul>
+            </article>
+        </section>
+
+        <section>
+            <h3>Apply for a Position</h3>
+
+            <form method="post" action="">
+
+                <label for="position">Position Applying For:</label>
+                <select id="position" name="position" required>
+                    <option value="">Select a position</option>
+                    <option value="barista">Barista</option>
+                    <option value="music-coordinator">Music Coordinator</option>
+                </select>
+                <br><br>
+
+                <label for="fullname">Full Name:</label>
+                <input type="text" id="fullname" name="fullname" required>
+                <br><br>
+
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" required>
+                <br><br>
+
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" required>
+                <br><br>
+
+                <label for="about">About You:</label><br>
+                <textarea id="about" name="about" rows="5" cols="40" required></textarea>
+                <br><br>
+
+                <label for="resume">Resume File:</label>
+                <input type="file" id="resume" name="resume" required>
+                <br><br>
+
+                <input type="submit" value="Apply Now">
+            </form>
+        </section>
+    </main>
+    <footer>
+        <small>
+            <i>
+                Copyright &copy; 2023 JavaJam Coffee Bar<br>
+                <a href="mailto:yourname@example.com">Your Name</a>
+            </i>
+        </small>
+    </footer>
+</body>
+</html>
