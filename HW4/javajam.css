@@ -14,6 +14,7 @@ body{
     margin-left: auto;
     margin-right: auto;
 }
+/* styles header */
 header{
     color: #8C3826;
     background-color: #D2B48C;
@@ -21,6 +22,7 @@ header{
 }
 
 /* Main heading */
+/* changes JavaJam logo */
 h1 {
     line-height: 200%;
     font-family: 'Lobster', cursive;
@@ -31,12 +33,13 @@ h2{
     color: #8C3826;
 }
 
+/* Navigation words */
 nav{
     text-align: center;
     font-weight: bold;
 }
 
-/* Navigation */
+/* Navigation links  */
 nav a {
     color: #8C3828;
     text-decoration: none;
@@ -48,11 +51,13 @@ nav a:hover {
     text-decoration: underline;
 }
 
+/* color of links */
 a {
     color: #8C3826;
 
 }
 
+/* color visited links will be*/
 a:visited {
     color: #6B4F3A;
 }
@@ -61,6 +66,8 @@ a:visited {
 table {
     border: 2px solid #211811;
 }
+
+/* styles the footer */
 footer {
     background-color: #D2B48C;
     font-size: .60em;
