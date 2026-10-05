@@ -1,0 +1,45 @@
+/* reset and box-sizing */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/*Base body styles */
+body{
+    font-family: Roboto, Helvetica, sans-serif;
+    padding-bottom: 60px;
+
+}
+
+/* Header styling */
+header{
+    position: sticky;
+    top: 0;
+    text-align: center;
+    border-bottom: 2px solid #262930;
+    background-color: #e9ecef;
+    color: #262930;
+}
+
+main{
+    width: 80%;
+    margin: 20px auto;
+    background-color: #90be6d;
+    color: #1b4332;
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100vw;
+    text-align: center;
+    background-color: #bde0fe;
+    color: #03045e;
+}
+
+p{
+    padding: 1em;
+}
+

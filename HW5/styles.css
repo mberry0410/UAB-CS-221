@@ -1,0 +1,30 @@
+body{
+    font-family: Roboto, Helvetica, sans-serif;
+    text-align: center;
+}
+
+#board{
+    font: 85px arial, sans-serif;
+    margin: 3px;
+
+    /* grid layout  */
+    display: grid;
+    grid-template-columns: 100px 100px 100px; /* 3 column width */
+    grid-template-rows: 100px 100px 100px; /* height of 3 rows */
+    grid-gap: 10px;  /* Gap between cells */
+    justify-content: center; /* Centers grid horizontally */
+}
+
+#board > div{
+    border: 1px solid LightSkyBlue;
+    text-align: center;
+    line-height: 100px; 
+}
+
+.x{
+    color: red;
+}
+
+.o {
+    color: blue;
+}
