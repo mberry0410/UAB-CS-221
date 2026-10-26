@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HW9 Number Checker</title>
+
+<!-- CSS to change back ground color-->
+<style>
+    body {
+        background-color: #f4f7f6;
+        font-family: Arial, sans-serif;
+        text-align: center;
+        margin-top: 50px;
+    }
+
+    h1{
+        color: #333;
+    }
+</style>
+
+
+<script>
+    // uses prompt function to ask the user to enter a  numeric value
+    // stores what the user types as a variable 
+    let userInput = prompt("Please enter a numeric value:");
+
+    // needs logic to check if it's valid, even, or odd
+    //converts the user's input into a number
+    let convertedNumber= Number(userInput);
+
+    //handles if user presses skip on the prompt or empty inputs or white space
+    // also handles if user typed letters or sumbols instead of a number
+    if(userInput == null || userInput.trim() == "" || isNaN(convertedNumber)){
+        //message for invalid inputs
+        console.error("Invalid input: '" + userInput + "'. Please enter a valid number and try again.");
+
+    }
+
+    //check if the number is even
+    else if (convertedNumber % 2 == 0){
+        console.log("The number " + convertedNumber + " is even.");
+    }
+
+    // if it's a valid number and not even, it must be odd
+    else{
+        console.log("The number" + convertedNumber + "is odd.");
+    }
+    </script>
+</head>
+<body>
+    <h1> Number Checker</h1>
+    <p>Please open your browser's <strong>Developer Tools Console</strong> F12 or right click inspect, then console to view results</p>
+</body>
+</html>
