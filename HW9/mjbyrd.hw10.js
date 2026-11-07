@@ -64,7 +64,7 @@ function startGame(){
     }
 
     //asks user if they want to play another round
-    keepPlaying = confirm("Do you want to play anothe rround?");
+    keepPlaying = confirm("Do you want to play another round?");
 }
 console.log("Thanks for playing!");
 
